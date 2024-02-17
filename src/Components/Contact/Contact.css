@@ -1,0 +1,123 @@
+.contact-div {
+  /* background: rgb(108, 103, 103); */
+  background: #edce37;
+  padding: 20px;
+}
+
+.contact {
+  text-align: center;
+  /* color: #EDCE37; */
+  color: black;
+  font-size: 35px;
+  font-weight: 680;
+  padding: 5px;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.imgs {
+  width: 30px;
+}
+
+.img-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-flex a {
+  color: black;
+}
+.span-name {
+  color: black;
+  font-weight: 6000;
+}
+
+.stories {
+  display: flex;
+  flex-direction: column;
+}
+
+.stories a {
+  color: black;
+}
+
+.stories a:hover {
+  color: rgb(72, 66, 66);
+}
+
+.contact2 {
+  text-align: center;
+  /* color: #EDCE37; */
+  color: black;
+  font-size: 25px;
+  font-weight: 680;
+  padding-top: 30px;
+}
+.contact3 {
+  text-align: center;
+  color: black;
+  font-size: 25px;
+  font-weight: 680;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .contact {
+    font-size: 23px;
+  }
+
+  .span-name {
+    font-size: 13px;
+  }
+
+  .contact2 {
+    font-size: 23px;
+  }
+
+  .contact3 {
+    font-size: 20px;
+    padding-bottom: 8px;
+  }
+
+  .stories a {
+    font-size: 13px;
+  }
+
+  .img-flex a {
+    color: black;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact {
+    font-size: 20px;
+  }
+
+  .span-name {
+    font-size: 10px;
+  }
+
+  .contact2 {
+    font-size: 15px;
+  }
+
+  .contact3 {
+    font-size: 15px;
+    padding-bottom: 8px;
+  }
+
+  .stories a {
+    font-size: 10px;
+  }
+
+  .contact-div {
+    background: #e4cf69;
+    padding: 20px;
+  }
+
+  .img-flex a {
+    color: black;
+  }
+}

@@ -1,0 +1,184 @@
+/* Desktop Styles */
+/* .navbar {
+  padding: 19px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  backdrop-filter: blur(52px);
+}
+.logo {
+  height: 50px;
+}
+
+.desktopMenuListItem {
+  text-decoration: none;
+  color: white;
+  margin: 9px;
+  
+}
+
+.desktopMenuListItem:hover {
+  color: #edce37;
+  padding-bottom: 8px;
+  border-bottom: 3px solid #edce37;
+}
+
+.logo {
+  object-fit: cover;
+}
+
+.desktopMenuImg {
+  object-fit: cover;
+  height: 20px;
+  width: 20px;
+  margin: 10px;
+}
+
+.desktopMenubtn {
+  background: white;
+  color: black;
+  border: none;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  border-radius: 20px;
+  cursor: pointer;
+
+}
+
+.desktopMenubtn2 {
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+/* ipad and Tablet styles  */
+/* @media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .navbar {
+    position: fixed;
+    width: 760px;
+    top: 0;
+    z-index: 1000;
+    backdrop-filter: blur(52px);
+  }
+
+  .desktopMenuListItem {
+    text-decoration: none;
+    color: white;
+    margin: 9px;
+  }
+
+  .desktopMenubtn {
+    background: #edce37;
+    border: none;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 2px solid black;
+  }
+
+  .desktopMenubtn2 {
+    color: black;
+  }
+} */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  padding: 12px 50px;
+  backdrop-filter: blur(52px);
+  align-items: center;
+}
+
+.logo {
+  height: 50px;
+}
+
+nav .title {
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  font-size: 33px;
+  padding: 5px 12px;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 2px 8px;
+  margin: 0 10px;
+  border-radius: 6px;
+}
+
+nav ul li a:not(.active):hover {
+  background-color: #edce37;
+  color: black;
+}
+
+nav .menu {
+  display: none;
+  position: absolute;
+  top: 12px;
+  right: 8px;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 36px;
+  height: 32px;
+}
+
+nav .menu span {
+  height: 6.4px;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 3.2px;
+}
+
+@media (max-width: 480px) {
+  nav .menu {
+    display: flex;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: start;
+    position: sticky;
+    top: 0;
+  }
+
+  nav ul {
+    display: none;
+    flex-direction: column;
+    padding-top: 10px;
+    margin-bottom: 12px;
+    width: 100%;
+  }
+
+  nav ul.open {
+    display: flex;
+  }
+
+  nav ul li {
+    width: 100%;
+    text-align: center;
+  }
+
+  nav ul li a {
+    margin: 3.2px 8px;
+  }
+}

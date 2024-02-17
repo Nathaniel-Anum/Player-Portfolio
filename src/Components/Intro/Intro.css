@@ -1,0 +1,109 @@
+/* Desktop Styles */
+#Intro {
+  max-width: 100%;
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 100px;
+  overflow: hidden;
+  margin-top: 40px;
+}
+
+.bg {
+  width: 435px;
+  padding-left: 60px;
+}
+
+.introContent {
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+  font-size: 45px;
+  font-weight: 680;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 120px;
+}
+
+.hello {
+  font-size: 25px;
+  font-weight: 150;
+}
+
+.introName {
+  /* color: #FFBF00; */
+  color: #edce37;
+}
+
+.p-text2 {
+  font-weight: 700;
+
+  background: linear-gradient(
+    45deg,
+    #ff7e5f,
+    #feb47b,
+    #ffcc6a,
+    #c3fc89,
+    #00ffcb,
+    #00b9ff,
+    #4b00ff,
+    #df00ff
+  );
+
+  /* background-color: #edce37; */
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  #Intro {
+    /* border: 2px solid red; */
+    margin-top: 130px;
+  }
+
+  .introContent {
+    font-size: 26px;
+    padding-left: 40px;
+  }
+
+  .bg {
+    width: 300px;
+    padding-left: 0px;
+  }
+}
+
+/* Mobile Phone Styles */
+@media (max-width: 480px) {
+  #Intro {
+    display: block;
+  }
+
+  .introContent {
+    font-size: 29px;
+    display: block;
+    text-align: center;
+    padding-left: 10px;
+    padding: 40px 0;
+  }
+
+  .hello {
+    font-size: 21px;
+    padding: 0px 4px;
+  }
+
+  .bg {
+    width: 250px;
+    padding-left: 0px;
+  }
+
+  .arrange-pic {
+    display: flex;
+    justify-content: center;
+  }
+}
